@@ -610,6 +610,7 @@ public class PlayerActivity extends Activity implements SurfaceHolder.Callback, 
   }
 
   private void toggleControlsVisibility()  {
+
     if (mediaController.isShowing()) {
       mediaController.hide();
       debugRootView.setVisibility(View.GONE);
